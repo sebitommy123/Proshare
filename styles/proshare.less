@@ -1,0 +1,69 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+
+.proshare {
+
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+ol{
+  list-style: none;
+}
+.proshare.uncentered{
+  justify-content: flex-start;
+  position: relative;
+  min-width: 0;
+  min-height: 0;
+  flex: 1;
+      overflow: hidden;
+}
+h3{
+  font-size: 23px;
+  color: #f2f2f2;
+}
+
+.input{
+
+  padding: 15px;
+  background-color: transparent;
+  display: block;
+  border: none;
+  color: #f2f2f2;
+  width: 100%;
+  margin-bottom: 20px;
+  border-bottom: #f2f2f2 1px solid;
+  transition: border-bottom 0.3s;
+
+}
+
+.input:focus{
+
+  border-bottom: #f2f2f2 3px solid;
+
+}
+
+.button{
+
+  padding: 15px;
+  background-color: #252525;
+  display: block;
+  border: 1px solid #343434;
+  color: #f2f2f2;
+  width: 100%;
+
+}
+
+.proshare_error{
+
+  padding: 10px;
+  background-color: #552222;
+  color: #f2f2f2;
+  margin-bottom: 20px;
+
+}

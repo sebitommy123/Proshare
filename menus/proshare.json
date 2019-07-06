@@ -1,0 +1,21 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle proshare",
+        "command": "proshare:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Proshare",
+      "submenu": [
+        {
+          "label": "Open",
+          "command": "proshare:toggle"
+        }
+      ]
+    }
+  ]
+}
