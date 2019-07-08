@@ -1,7 +1,7 @@
 {
   "name": "Proshare",
   "main": "./lib/proshare",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "An atom editor for the Proshare platform. (https://zubatomic.es/projects/proshare)",
   "keywords": [],
   "activationCommands": {
